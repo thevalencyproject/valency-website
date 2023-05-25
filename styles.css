@@ -167,7 +167,7 @@
     background-position:center;
     background-size:cover;
     background-color:#141414;
-    max-height:40vh;
+    height:40vh;
     z-index:1;
     position:relative;
     background-color:#ff6a00
@@ -215,32 +215,32 @@
     .about-section button {
     font-size:1.8vh;
     margin-top:20px;
+    font-style:oblique;
     background-color:transparent;
     border:2px solid #ff6a00;
     border-radius:10px;
     color:#fff;
     padding:10px;
-    transition:350ms
     }
     
     .about-section button:hover {
-    border:2px solid #e01515;
-    background-color:#fffb00;
-    color:#141414
+    border:4px solid #ff6a00;
+    margin-top: 18px;
     }
     
     .the-network,.the-exchange {
     margin-top:-23vh;
     width:33vw;
-    background-color:rgba(0,0,0,0.0);
+    background-color:rgba(0,0,0,0.35);
     padding:20px;
     align-items:center;
     justify-content:center;
-    height:60vh;
+    height:48vh;
     text-align:center;
     transition:350ms;
     border-radius:80px;
-    position:relative
+    position:relative;
+    overflow-y:scroll;
     }
     
     .about-section svg {
@@ -259,7 +259,8 @@
     top:0;
     left:0;
     right:0;
-    bottom:0
+    bottom:0;
+    opacity: 0.4;
     }
     
     #animation1 {
@@ -297,7 +298,7 @@
     .the-exchange,#rhs {
     float:right
     }
-    
+
     @media screen and (orientation: portrait) {
     .parallax {
     height:100vh;
