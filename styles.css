@@ -72,8 +72,7 @@
     }
     
     .logo {
-    width:10vw;
-    height:6vh;
+    width: calc(5vw + 3vh);
     cursor:pointer;
     z-index:1
     }
